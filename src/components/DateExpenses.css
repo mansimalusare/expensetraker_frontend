@@ -1,0 +1,98 @@
+/*.DateExpences {
+    display: flex;
+    background-color: rgb(198 141 228);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: 120px;
+
+}*/
+
+
+
+
+.dateformat {
+    height: 7rem;
+    width: 7rem;
+    background-color: black;
+    color: rgb(234, 217, 217);
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+    padding: 2px;
+    box-shadow: 0px 0px 2px 0px whitesmoke;
+    border: 0.1px solid grey;
+
+}
+
+.dateformat,
+h1 {
+    font-size: 17px;
+}
+
+.dateformat,
+h2 {
+    font-size: 14px;
+}
+
+.dateformat,
+h3 {
+    font-size: 24px;
+    line-height: 11px;
+}
+
+/* mediaquery start */
+@media(max-width:450px) {
+    .date {
+        width: 6rem;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:400px) {
+    .date {
+        width: 5rem;
+        height: 6rem;
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 10px;
+    }
+}
+
+/*const DateExpenses = (props) => {
+    const month = ["abc", "jan", "feb", "march", "april", "may", "june", "july", "aug", "sep", "oct", "nov", "dec"]
+    return (
+        <>
+
+            <div className='dateformat'>
+                <h1> {month[props.row.date.getMonth()]} </h1>
+                <h2> {props.row.date.getFullYear()} </h2>
+                <h3> {props.row.date.getDate()} </h3>
+            </div>
+
+
+        </>
+    );
+};
+export default DateExpenses;-->*/

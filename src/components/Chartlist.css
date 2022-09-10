@@ -1,0 +1,53 @@
+.chart-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+.chart-bar_inner {
+    height: 100px;
+    width: 10px;
+    border: 1px solid #313131;
+    border-radius: 12px;
+    background-color: #d3d3d3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+
+
+}
+
+.chart-bar_fill {
+    background-color: #4826b9;
+    width: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.chart-bar_label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    color: black;
+
+
+
+}
+
+.chart-bar_label,
+label {
+    position: relative;
+    top: 2%;
+    color: black;
+
+}
+
+/*<label className='chart-bar_label'>{props.label}</label>
+</div>*/

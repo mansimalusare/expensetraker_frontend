@@ -1,0 +1,39 @@
+.filteryear {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 83% 15%;
+    margin: 0 auto;
+    height: 3rem;
+
+
+
+
+
+}
+
+.Filterdata span {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    left: 3%;
+}
+
+.filteryearid {
+    width: 54%;
+    height: 2rem;
+    background-color: white;
+    font-weight: bold;
+    border: 0px white;
+    border-radius: 6px;
+    text-align: center;
+
+
+
+
+
+}
+
+.filteryearid:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.dflex {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 177, 220);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: 120px;
+
+}

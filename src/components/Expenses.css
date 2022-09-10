@@ -1,0 +1,58 @@
+.price {
+    width: 13%;
+    height: 2.5rem;
+    background-color: rgba(54, 1, 41, 0.744);
+    text-align: center;
+    border-radius: 0.8rem;
+    color: white;
+    line-height: 2.2rem;
+    font-weight: bold;
+    position: absolute;
+    right: 2%;
+    top: 33%;
+    border: 0.3px solid grey;
+    box-shadow: 0px 0px 2px 1px rgb(236, 182, 236);
+}
+
+.item,
+h1 {
+    color: white;
+    font-size: 21px;
+    line-height: 6rem;
+}
+
+.maincontainer {
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+    border-top: 15px solid;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.expenceList {
+    width: 95%;
+    background-color: rgb(42, 41, 41);
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 2fr ;
+    margin: 0 auto;
+    border-radius: 12px;
+    position: relative;
+}
+
+.display_none {
+    display: none;
+}
+
+.display_block {
+    display: block;
+}
+
+/* mediaquery start */
+@media(max-width:450px) {
+    .price {
+        width: 22%;
+    }
+}
